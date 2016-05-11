@@ -36,7 +36,8 @@
             android:padding="40dp"
             android:text="Fire"
             android:background="#e71e1e"
-            android:id="@+id/button" />
+            android:id="@+id/button"
+            android:onClick="sendMessage"/>
 
         <Button
             android:layout_width="fill_parent"
