@@ -14,6 +14,7 @@
         android:text="IN CASE OF A FIRE"
         android:gravity="center_horizontal"
         android:layout_marginTop="10dp"
+        android:paddingBottom="7"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05" />
 
@@ -23,6 +24,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Listen to and act on the instructions of a teacher or administrator."
         android:textSize="25dp"
+        android:paddingBottom="10dp"
         android:gravity="center_horizontal"
         android:id="@+id/textView2"
         android:layout_gravity="center_horizontal"
@@ -32,12 +34,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="   If there isn't a staff member in your location: \n
+        android:text="If there isn't a staff member in your location: \n
  • follow any class that is acting on the current drill \n
  • locate the nearest exit and evacuate "
         android:id="@+id/textView3"
         android:paddingLeft="2dp"
+        android:paddingBottom="7dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If you see a fire or the threat of a fire that hasn't been addressed \n
+ • pull the fire alarm \n
+ • tell a nearby teacher or administrator"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
 
 </LinearLayout>
