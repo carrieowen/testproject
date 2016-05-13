@@ -15,12 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< Updated upstream
         <activity android:name=".firescreen"></activity>
-=======
-        <activity android:name=".earthquake" />
-        <activity android:name=".codeblue"></activity>
->>>>>>> Stashed changes
     </application>
 
 </manifest>
