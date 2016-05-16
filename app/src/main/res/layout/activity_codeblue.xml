@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     
     tools:context="com.example.carrieowen.testproject.codeblue">
 
@@ -12,11 +13,48 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="In case of Code Blue"
         android:textAllCaps="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
     <TextView
-        android:layout_width=""
-        android:layout_height="" />
-        
-        
-</RelativeLayout>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Listen to and act on the instructions of a teacher or an administrator."
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If there isn't a teacher or administrator in your area:"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"
+        android:textSize="21dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="19dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="• stay where you are, do no go outside of where ever you are because it is not safe.\n• Stay out of the halls; if a code blue is called while you are in the halls, find the nearest place to hide.\n• If you are with someone, do not let any one of them go out alone.\n• Wait for an teacher to show up an tell you it is safe before leaving your area"
+        android:id="@+id/textView5" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:text="return"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
