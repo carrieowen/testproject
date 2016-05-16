@@ -13,9 +13,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public Intent changeScreen = new Intent();
 
-    public void sendMessage (View view){
-        Intent changeScreen = new Intent(this, firescreen.class);
+    public void Fire (View view){
+        changeScreen = new Intent(this, firescreen.class);
+        startActivity(changeScreen);
+    }
+    public void Tornado (View view){
+        changeScreen = new Intent(this, tornado.class);
+        startActivity(changeScreen);
+    }
+    public void Earthquake (View view){
+        changeScreen = new Intent(this, earthquake.class);
+        startActivity(changeScreen);
+    }
+    public void CodeBlue (View view){
+        changeScreen = new Intent(this, codeblue.class);
         startActivity(changeScreen);
     }
 }
