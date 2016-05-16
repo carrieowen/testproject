@@ -13,10 +13,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public Intent changeScreenFire = new Intent();
+    public Intent changeScreenTornado = new Intent();
+    public Intent changeScreenEarthquake = new Intent();
+    public Intent changeScreenCodeBlue = new Intent();
 
-    public void sendMessage (View view){
-        Intent changeScreen = new Intent(this, firescreen.class);
-        startActivity(changeScreen);
+    public void Fire (View view){
+        setContentView(R.layout.activity_firescreen);
     }
+    public void Tornado (View view){
+        setContentView(R.layout.activity_tornado);
+    }
+    public void Earthquake (View view){
+        setContentView(R.layout.activity_earthquake);
+    }
+    public void CodeBlue (View view){
+        setContentView(R.layout.activity_codeblue);
+    }
+
 }
 
