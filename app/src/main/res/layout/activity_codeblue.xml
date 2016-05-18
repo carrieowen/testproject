@@ -12,8 +12,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="In case of Code Blue"
+        android:textStyle="bold"
         android:textAllCaps="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
         android:layout_gravity="center_horizontal"/>
     <TextView
         android:layout_width="wrap_content"
