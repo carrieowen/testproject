@@ -19,6 +19,7 @@
         android:id="@+id/textView"
         android:text="IN CASE OF A FIRE"
         android:gravity="center_horizontal"
+        android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:paddingBottom="7dp"
         android:layout_gravity="center_horizontal"
@@ -41,7 +42,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="If there isn't a staff member in your location:"
         android:id="@+id/textView3"
-        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"
         android:paddingBottom="10dp"
         android:layout_weight="0.05" />
 
@@ -52,31 +54,49 @@
         android:text="• follow any class that is acting on the current drill \n• locate the nearest exit and evacuate "
         android:id="@+id/textView7"
         android:paddingBottom="15dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="15dp"
         android:layout_weight="0.07" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="If you see a fire or the threat of a fire that hasn't been addressed \n
- • pull the fire alarm \n
- • tell a nearby teacher or administrator"
+        android:text="If you see a fire or the threat of a fire that hasn't been addressed:"
         android:id="@+id/textView4"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic"
         android:paddingBottom="15dp"
         android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="• follow any class that is acting on the current drill \n• locate the nearest exit and evacuate "
+        android:id="@+id/textView8"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="If there isn't a staff member in your location:"
+        android:id="@+id/textView6"
+        android:gravity="center_horizontal"
+        android:textStyle="italic|bold"
+        android:layout_marginBottom="10dp"
         android:layout_weight="0.05" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="If you are trapped in a room because of a fire \n
- • locate any possible exits and determine if they are safe to approach \n
- • search for a fire extinguisher or safety blanket \n
- • stay as far away as possible from the flames \n
- • call for help"
+        android:text="• locate any possible exits and determine if they are safe to approach \n• search for a fire extinguisher or safety blanket \n• stay as far away as possible from the flames \n• call for help"
         android:id="@+id/textView5"
+        android:layout_marginLeft="10dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1.25" />
 

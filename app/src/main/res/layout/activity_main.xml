@@ -25,6 +25,8 @@
             android:layout_height="wrap_content"
             android:textColor="#eff2f9"
             android:text="Emergency Drills"
+            android:layout_marginTop="15pt"
+            android:layout_marginBottom="20dp"
             android:gravity="center"
             android:textSize="32sp"
             />
