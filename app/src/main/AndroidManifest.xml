@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".firescreen"></activity>
+        <activity android:name=".earthquake"></activity>
+        <activity android:name=".tornado"></activity>
+        <activity android:name=".codeblue"></activity>
     </application>
 
 </manifest>

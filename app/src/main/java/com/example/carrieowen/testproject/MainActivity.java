@@ -9,26 +9,28 @@ import android.widget.LinearLayout;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+  public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public Intent changeScreenFire = new Intent();
-    public Intent changeScreenTornado = new Intent();
-    public Intent changeScreenEarthquake = new Intent();
-    public Intent changeScreenCodeBlue = new Intent();
+
 
     public void Fire (View view){
-        setContentView(R.layout.activity_firescreen);
+        Intent changeScreenFire = new Intent(this, firescreen.class);
+        startActivity(changeScreenFire);
+    }
+
+    public void Earthquake (View view){
+        Intent changeScreenEarthquake = new Intent(this, earthquake.class);
+        startActivity(changeScreenEarthquake);
     }
     public void Tornado (View view){
-        setContentView(R.layout.activity_tornado);
-    }
-    public void Earthquake (View view){
-        setContentView(R.layout.activity_earthquake);
+        Intent changeScreenTornado = new Intent(this, tornado.class);
+        startActivity(changeScreenTornado);
     }
     public void CodeBlue (View view){
-        setContentView(R.layout.activity_codeblue);
+        Intent changeScreenCodeBlue = new Intent(this, codeblue.class);
+        startActivity(changeScreenCodeBlue);
     }
 
 }
